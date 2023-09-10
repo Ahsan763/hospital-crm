@@ -35,6 +35,15 @@
     right: 0;
     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.05);
 }
+.navbar_noti_box_details::before{
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    height: 30px;
+}
 .navbar_noti_box:hover .navbar_noti_box_details {
     display: block;
 }
