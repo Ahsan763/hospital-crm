@@ -1487,3 +1487,25 @@
 .emphmActvtycrdInnrlink2:hover{
     color: #62C1FD;
 }
+.notitabtab-content{
+    max-height: 420px;
+    overflow-y: scroll;
+}
+.notitabtab-content::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+.notitabtab-content::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+.notitabtab-content::-webkit-scrollbar-thumb {
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+.notitabtabftr{
+    padding: 10px 10px;
+    background-color: #FAFAFC;
+    border-radius: 8px;
+    margin-top: 10px;
+}
