@@ -381,33 +381,8 @@
     background-color: transparent;
     color: var(--btn-background2);
 }
-input[type=checkbox] {
-	-moz-appearance:none;
-	-webkit-appearance:none;
-	-o-appearance:none;
-	outline: none;
-	content: none;	
-}
-input[type=checkbox]:before {
-	font-family: "FontAwesome";
-    content: "\f00c";
-    font-size: 12px;
-    line-height: 18px;
-    color: transparent !important;
-    width: 18px;
-    height: 18px;
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: 1px solid var(--border-color2);
-}
-input[type=checkbox]:checked:before {
-	color: #fff !important;
-    background-color: var(--text);
-}
+
+
 .notiftr{
     background-color: var(--background-color1);
     height: 53px;
