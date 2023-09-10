@@ -1,0 +1,71 @@
+.ltr .table2-pagi-next i,
+.ltr .table2-pagi-pre i{
+    transform: scaleX(-1);
+}
+.ltr .aside {
+    left: 0;
+    right: auto;
+}
+.ltr .logo_wrapper {
+    left: 0;
+    right: auto;
+}
+.ltr .dashboard_header {
+    right: 0;
+    left: auto;
+}
+.ltr .main {
+    margin-left: auto;
+    margin-right: 0;
+}
+.ltr .navbar_search_box_btn {
+    right: 10px;
+    left: auto;
+}
+
+.ltr .tblprdShow-ab {
+    right: 100%;
+    left: auto;
+}
+.ltr .asideClose {
+    right: 10px;
+    left: auto;
+}
+.ltr .navbar_box1 {
+    margin-right: auto;
+    margin-left: 0;
+}
+@media(max-width:1023px){
+    .ltr .pfDropdown {
+        left: 0 !important;
+        right: auto !important;
+    }
+    .ltr .aside.active .aside-drop {
+        position: relative;
+        width: 90%;
+        top: unset;
+        transform: none;
+        height: auto;
+        right: unset;
+        margin-right: 25px;
+        background-color: #FBFBFB;
+    }
+    .ltr .aside-drop {
+        left: unset !important;
+        margin-left: 0;
+        margin-right: 13px;
+    }
+}
+@media(max-width:539px){
+    .language_toggle_en i,
+    .language_toggle_ar i,
+    .theme-light,
+    .theme-dark{
+        width: 30px;
+        height: 30px;
+    }
+    .aside.active .logout-btn,
+    .madeby_text{
+        font-size: 14px;
+    }
+}
