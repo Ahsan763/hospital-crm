@@ -434,10 +434,15 @@
     }
     .thmwrpr__hdng{
         font-size: 14px;
-        max-width: 120px;
     }
     .emphmcrd{
         margin-bottom: 20px;
+    }
+    .theme-light,
+    .theme-dark {
+        width: 32px;
+        height: 32px;
+        font-size: 14px;
     }
 }
 @media(max-width:1199px){

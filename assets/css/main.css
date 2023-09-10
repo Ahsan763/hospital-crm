@@ -1176,11 +1176,12 @@
 .taskcardInnerBox1-mini{
     width: 40px;
     height: 40px;
-    background-color: #E7FEEB;
+    background-color: #F0FAFD;
     color: #20B0E0;
 }
 .taskcardInnerBox1-mini.active{
     color: #098B20;
+    background-color: #E7FEEB;
 }
 .taskcardInnerBox1{
     width: 85%;
@@ -1190,6 +1191,14 @@
 .taskcardInnerBox2{
     width: 20px;
     margin-left: auto;
+}
+.thmwrpr__hdng{
+    font-size: 18px;
+    font-weight: bold;
+}
+.thmwrpr__p{
+    font-size: 13px;
+    color: #A2A2A2;   
 }
 .taskcardInnerBox1_content-h5{
     font-size: 12px;
@@ -1210,12 +1219,13 @@
 }
 .taskcardInnertag2{
     padding: 5px 7px;
-    background-color: #E7FEEB;
+    background-color: #F0FAFD;
     color: #20B0E0;
     border-radius: 4px;
     font-size: 12px;
 }
 .taskcardInnertag2.done{
+    background-color: #E7FEEB;
     color: #098B20;
 }
 .taskcard__link{

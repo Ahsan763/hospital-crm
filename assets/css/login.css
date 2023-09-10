@@ -1,12 +1,12 @@
 
 .loginwrpr{
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
 }
 .loginbox1,
 .loginbox2{
     width: 50%;
-    min-height: 100vh;
+    height: 100vh;
     max-height: 1024px;
     background-color: #fff;
     position: relative;
@@ -164,8 +164,6 @@
 }
 .lginpt__btn:hover{
     background-color: transparent !important;
-    margin-bottom: 25px;
-    font-size: 18px;
     color: #00B9E5;
 }
 .imgviwbox_inpt{
@@ -226,15 +224,7 @@
     height: 100%;
     object-fit: cover;
 }
-@media(max-width:1023px){
-    .loginbox1{
-        width: 100%;
-    }
-    .loginbox2{
-        display: none;
-    }
-}
-@media(max-width:539px){
+@media(max-width:1399px){
     .loginbox1 {
         padding: 20px 15px;
     }
@@ -251,17 +241,28 @@
         margin-bottom: 20px;
     }
     .lginpt {
-        height: 50px;
+        height: 45px;
         padding: 5px 10px;
         border-radius: 7px;
         margin-bottom: 15px;
         font-size: 15px;
     }
     .lginpt__btn{
-        height: 50px;
+        height: 45px;
         padding: 5px 10px;
         border-radius: 7px;
         margin-bottom: 5px;
         font-size: 15px;
     }
+}
+@media(max-width:1023px){
+    .loginbox1{
+        width: 100%;
+    }
+    .loginbox2{
+        display: none;
+    }
+}
+@media(max-width:539px){
+
 }
