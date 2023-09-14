@@ -296,6 +296,79 @@
     .notitab__btn{
         font-size: 15px;
     }
+    .prjCard__hdr {
+        padding: 16px 20px;
+        column-gap: 7px;
+    }
+    .prjCard__hdr-ic1 {
+        font-size: 18px;
+    }
+    .prjCard__hdrbtn {
+        padding: 4px 12px 4px 5px;
+        font-size: 14px;
+    }
+    .prjCard__hdrbtnswrpr{
+        column-gap: 10px !important;
+    }
+    .prjCard__hdrbtn .flex-a{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+    }
+    .prjCard__hdrbtn .flex-a i{
+        font-size: 12px;
+    }
+    .prjCard__body {
+        padding: 14px 16px;
+    }
+    .prjbtn {
+        padding: 7px 7px;
+        font-size: 14px;
+    }
+    .listgrdbtn,
+    .panHdrBox2PrintrBtn,
+    .searchform__btn,
+    .searchform__input,
+    .panHdrBox1sortbytime {
+        font-size: 14px;
+        height: 38px;
+    }
+    .listgrdbtn {
+        padding: 7px 7px;
+        column-gap: 6px;
+        font-size: 14px;
+        width: 70px;
+    }
+    .listgrdbtn i {
+        font-size: 15px;
+    }
+    .panHdrBox2 {
+        column-gap: 20px;
+    }
+    .panHdrBox2PrintrBtn {
+        column-gap: 5px;
+        padding: 6px 6px;
+    }
+    .panHdrBox2PrintrBtn3,
+    .panHdrBox2PrintrBtn2 {
+        width: 38px;
+        height: 38px;
+        font-size: 14px;
+    }
+    .panHdrBox2PrintrBtn2-ab{
+        right: 40px;
+    }
+    .panHdrBox2PrintrBtn2-ab-btn {
+        width: 34px;
+        height: 34px;
+        font-size: 14px;
+    }
+    .nodataboxrow span {
+        font-size: 20px;
+    }
+    .nodatabox {
+        padding: 30px 0 60px 0;
+    }
 }
 @media(max-width:1399px){
     .subcrd{
@@ -444,6 +517,15 @@
         height: 32px;
         font-size: 14px;
     }
+    .tablBtnAb{
+        right: 38px;
+    }
+    .tablBtnAbbt,
+    .tablBtn{
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
 }
 @media(max-width:1199px){
    .cardb{
@@ -527,6 +609,34 @@
     .table_crdhdr2_box2-p2{
         width: 122px;
     }
+    .listgrdbtn {
+        width: 60px;
+    }
+    .searchform {
+        width: 270px;
+    }
+    .panHdrBox1sortbytime{
+        width: 90px;
+    }
+    .panHdrBox1{
+        column-gap: 10px !important;
+    }
+    .searchform__btn{
+        width: 45px;
+    }
+    .panHdrBox2 {
+        column-gap: 10px;
+    }
+    .panHdrBox2printrwrpr {
+        column-gap: 4px;
+    }
+    .panHdrBox2listgridwrpr,
+    .panHdrBox2 {
+        column-gap: 4px !important;
+    }
+    .navbar_search_box_input {
+        width: 230px;
+    }
 }
 @media(max-width:1023px){
     .aside.active.pos{
@@ -568,9 +678,7 @@
         margin-inline:0;
         width: 100%;
     }
-    .aside.active .asidbox_icons{
-        border-radius: 0 10px 10px 0;
-    }
+
     .aside.active .aside-drop {
         position: relative;
         width: 100%;
@@ -665,6 +773,25 @@
     }
     .navbar{
         height: 75px;
+    }
+    .aside-drop{
+        border: none;
+    }
+    .nav_pf_box {
+        padding: 10px 4px;
+        column-gap: 2px !important;
+    }
+    .flex-i.prf-noti-wrpr .flex-i.gap-2{
+        column-gap: 3px !important;
+    }
+    .tableCard{
+        overflow-x: scroll;
+    }
+    .tableCard .table{
+        min-width: 860px;
+    }
+    .panHdr{
+        row-gap: 10px;
     }
 }
 @media(max-width:767px){
@@ -781,10 +908,6 @@
         margin-bottom: 5px;
         border-radius: 8px;
         justify-content: center;
-    }
-    .form-select {
-        padding: 5px 8px 5px 10px;
-        background-position: left 2px center;
     }
     .table_crdhdr2_box2__sel2{
         font-size: 13px;
@@ -914,6 +1037,43 @@
     }
     .navbar_search_box{
         width: 40px;
+    }
+    .panHdrBox2{
+        margin-left: 0 !important;
+    }
+    .thmwrpr__p,
+    .thmwrpr__hdng {
+        font-size: 11px;
+    }
+    .prjCard__hdr {
+        padding: 12px 14px;
+        column-gap: 7px;
+    }
+    .prjCard__hdrbtn,
+    .prjCard__hdrbtnswrpr {
+        column-gap: 4px !important;
+    }
+    .prjCard__hdrbtn .flex-a {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .prjCard__hdrbtn .flex-a i {
+        font-size: 10px;
+    }
+    .prjCard__hdrnoti {
+        width: 24px;
+        height: 24px;
+        font-size: 12px;
+    }
+    .prjCard__sp1 {
+        font-size: 13px;
+    }
+    .prjCard__hdr-ic2 {
+        font-size: 10px;
+    }
+    .prjCard__hdr-ic1 {
+        font-size: 14px;
     }
 }
 @media(max-width:539px){
@@ -1212,5 +1372,18 @@
         left: 50%;
         right: auto !important;
         transform: translateX(-60%);
+    }
+    .prjCard__hdr{
+        flex-wrap: wrap;
+        row-gap: 7px;
+    }
+    .prjCard__hdrbtnswrpr{
+        margin-left: 0 !important;
+    }
+    .searchform {
+        width: 180px;
+    }
+    .grdcrd{
+        width: 100%;
     }
 }

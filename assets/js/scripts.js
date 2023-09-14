@@ -1,16 +1,5 @@
 $(document).ready(function() {
-	// 
-	$(".inputF").focus(function(){
-		$(this).nextAll('.form-input-sm-name').eq(0).show()
-	})
-	$(".inputF").focusout(function(){
-		$(this).nextAll('.form-input-sm-name').eq(0).hide()
-	})
-	// 
-	$(".horderaccordianbox").click(function(){
-		$(this).toggleClass("active");
-		$(this).nextAll(".horderaccordian__box").slideToggle(300)
-	})
+
 	// dropdown
     $('.drp_btn').click(function () {
         $('.drp_box').removeClass('active');
@@ -75,38 +64,6 @@ $(document).ready(function() {
 	}
 	// dark and light theme end
 
-	// language toggle start
-	if(document.dir == "ltr"){
-		$('.language_toggle_en').addClass("d-none");
-		$('.language_toggle_ar').addClass("d-flex");
-	}
-	if(document.dir == "rtl"){
-		$('.language_toggle_ar').addClass("d-none");
-		$('.language_toggle_en').addClass("d-flex");
-	}
-	$('.language_toggle_en').click(function () {
-		$('html').attr('dir', 'ltr');
-		$('body').addClass('ltr');
-		$('body').removeClass('rtl');
-		$('.language_toggle_ar').removeClass("d-none");
-		$('.language_toggle_en').addClass("d-none");
-		localStorage.removeItem('rtl');
-	})
-	$('.language_toggle_ar').click(function () {
-		$('html').attr('dir', 'rtl');
-		$('body').addClass('rtl');
-		$('body').removeClass('ltr');
-		$('.language_toggle_en').removeClass("d-none");
-		$('.language_toggle_ar').addClass("d-none");
-		localStorage.setItem('rtl', 'true');
-	})
-	if (localStorage.getItem('rtl') === 'true') {
-		$('.language_toggle_ar').addClass("d-none");
-		$('.language_toggle_en').removeClass("d-none");
-		$('body').addClass('rtl');
-		$('body').removeClass('ltr');
-		$('html').attr('dir', 'rtl');
-	}
 
 	var count = 0;
 	$('.select-all').click(function() {
@@ -125,27 +82,8 @@ $(document).ready(function() {
 			$(".notiftr__btn").removeClass("d-block");
 		}
 	}
-	// var colorPicker = document.getElementById('colorPicker');
 
-	// 	colorPicker.addEventListener('change', function(event) {
-	// 	var selectedColor = event.target.value;
-	// 	document.documentElement.style.setProperty('--text', selectedColor);
-	// });
 	
-	// var colorPicker2 = document.getElementById('colorPicker2');
-	// 	colorPicker2.addEventListener('change', function(event) {
-	// 	var selectedColor2 = event.target.value;
-	// 	document.documentElement.style.setProperty('--background-color1', selectedColor2);
-	// });
-	// var colorPicker3 = document.getElementById('colorPicker3');
-	// 	colorPicker3.addEventListener('change', function(event) {
-	// 	var selectedColor3 = event.target.value;
-	// 	document.documentElement.style.setProperty('--background-color2', selectedColor3);
-	// });
-	$(".ordrBox1Togglebtn").click(function(){
-		$(this).toggleClass("active")
-		$(".ordrBox1").toggleClass("active")
-	})
 	$(".filtrdrpBtn").click(function(){
 		$(this).toggleClass("active")
 		$(this).nextAll(".filtrdrpBtnMenu").eq(0).toggleClass("active")
@@ -154,4 +92,26 @@ $(document).ready(function() {
 		$(this).toggleClass("ative");
 		$(this).nextAll(".pcpBtn-content").slideToggle(300);
 	})
+	// show list and grid view start
+	$(".listbtn").click(function(){
+		$(this).addClass("active");
+		$(".list").addClass("active");
+		$(".gridbtn").removeClass("active");
+		$(".gridbox").removeClass("active");
+		localStorage.removeItem("listview");
+	})
+	$(".gridbtn").click(function(){
+		$(this).addClass("active");
+		$(".gridbox").addClass("active");
+		$(".listbtn").removeClass("active");
+		$(".list").removeClass("active");
+		localStorage.setItem("listview","true");
+	})
+	if(localStorage.listview == "true"){
+		$(".gridbtn").addClass("active");
+		$(".gridbox").addClass("active");
+		$(".list").removeClass("active");
+		$(".listbtn").removeClass("active");
+	}
+	// show list and grid view end
 });

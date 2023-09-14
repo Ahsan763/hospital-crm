@@ -333,7 +333,7 @@
     background-color: #F0FAFD;
 }
 .asidelogout{
-    padding: 10px 10px;
+    padding: 6px 15px 6px 6px;
     border: 1px solid #ECECF8;
     border-radius: 50px;
     display: flex;
@@ -345,4 +345,10 @@
     height: 45px;
     object-fit: cover;
     border-radius: 50%;
+}
+.asidelogoutbtn {
+    font-size: 15px;
+}
+.asidelogoutbtn  i{
+    color: #C70933;
 }
