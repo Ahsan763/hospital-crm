@@ -70,7 +70,7 @@
         width: 40px;
         height: 40px;
     }
-    .navbar_noti_box i {
+    .navbar_noti_box .fa-arrow-left{
         font-size: 16px;
     }
     .nav_pf_box_hol {
@@ -473,7 +473,7 @@
         font-size: 14px;
         height: 32px;
     }
-    .navbar_noti_box i{
+    .navbar_noti_box .fa-arrow-left{
         font-size: 14px;
     }
     .nav_pf_box i{

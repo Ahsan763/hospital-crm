@@ -1213,6 +1213,7 @@
     background-color: #FFF0D9;
     color: #F8BE4A;
     font-size: 11px;
+    width: fit-content;
 }
 .papercliptext{
     font-size: 10px;
@@ -2318,4 +2319,35 @@ input[type=checkbox]:checked:before {
 .offcanvas-header .emphmActvtycrdInnrlink1 i{
     color: #F8BE4A;
     font-size: 12px;
+}
+.cardrowsidebr{
+    overflow-x: scroll;
+    width: 100%;
+}
+.cardrowsidebr .prjdetminicrd{
+    min-width: 86px !important;
+    height: 76px !important;
+    margin-bottom: 5px;
+}
+.hdngcreated{
+    font-size: 14px;
+}
+.hdngcreated-sp1{
+    color: #8E8E8E;
+}
+.hdngcreated-sp2{
+    color: #00B4EE;
+}
+.taskcardHdrBox2-btn2{
+    width: fit-content;
+    padding: 10px 15px;
+    background-color: #00B4EE;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    font-size: 15px;
+    column-gap: 10px;
+}
+.taskcardHdrBox2-btn2:hover{
+    color: #00B4EE;
+    background-color: #fff;
 }
