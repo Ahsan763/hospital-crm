@@ -1386,4 +1386,15 @@
     .grdcrd{
         width: 100%;
     }
+    .usrcard{
+        padding: 12px 12px;
+    }
+    .usrcardRowBox {
+        width: 80px;
+        height: 75px;
+    }
+    .usrcardRowBox__img {
+        width: 50px;
+        height: 50px;
+    }
 }

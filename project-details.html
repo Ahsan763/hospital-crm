@@ -1,0 +1,900 @@
+<!doctype html>
+<html dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Project Details</title>
+		<!-- Favicons -->
+		<link href="assets/images/logo.png" rel="icon">
+		<!-- font aweasome -->
+		<link rel="stylesheet" href="https://kit.fontawesome.com/d3eb7bac5e.css" crossorigin="anonymous">
+		<!-- bootstrap 5.2.2 -->
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link href="dist/bootstrap-5.2.2/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+		<!-- form select -->
+	    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+		<!-- fonts -->
+		<link href="dist/fonts/fonts.css" rel="stylesheet">
+		<!-- Main Stylesheet File -->
+		<link href="assets/css/aside.css" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<link href="assets/css/media_queries.css" rel="stylesheet">
+		<link href="assets/css/dark.css" rel="stylesheet">
+	</head>
+<body>
+<div class="app">
+	<!-- <a href="#" class="botm-to-top-link">
+		<i class="fa-solid fa-arrow-up bootm-to-top-icn bootm-to-top-icn3"></i>
+	</a> -->
+	<div class="dashboard-wrapper flex">
+		<aside class="aside">
+			<button type="button" class="asideClose">
+				<i class="fa-sharp fa-regular fa-xmark"></i>
+			</button>
+			<a href="/" class="logo_wrapper">
+				<div class="logo_holder">
+					<img src="assets/images/logo.png" alt="skilled logo" class="logo_img" />
+				</div>
+			</a>
+			
+			<div class="aside_container">
+				<a href="/" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Dashboard
+						</p>
+					</div>
+				</a>
+				<div class="asidbox active">
+					<div class="asidbox_icons">
+						<i class="fa-duotone fa-bag-shopping"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<div class="asidbox_Link">
+							Projects
+						</div>
+
+						<i class="fa-sharp fa-regular fa-chevron-down asidbox_LinkIcn"></i>
+					</div>
+					<ul class="aside-drop">
+						<li>
+							<a href="create-new.html" class="asidbox_Link2">
+								<div></div>
+								Create New
+							</a>
+						</li>
+						<li>
+							<a href="all-projects.html" class="asidbox_Link2">
+								<div></div>
+								All Projects
+							</a>
+						</li>
+						<li>
+							<a href="project-type.html" class="asidbox_Link2">
+								<div></div>
+								Project Type
+							</a>
+						</li>
+						<li>
+							<a href="projects-docs.html" class="asidbox_Link2">
+								<div></div>
+								Projects Docs
+							</a>
+						</li>
+						<li>
+							<a href="projects-services.html" class="asidbox_Link2">
+								<div></div>
+								Projects Services
+							</a>
+						</li>
+					</ul>
+				</div>
+				<a href="markting.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Markting
+						</p>
+					</div>
+				</a>
+				<a href="sales.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Sales
+						</p>
+					</div>
+				</a>
+				<a href="employees.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Employees
+						</p>
+					</div>
+				</a>
+				<a href="Docs-and-files.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Docs & Files
+						</p>
+					</div>
+				</a>
+				<a href="expenses.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Expenses
+						</p>
+					</div>
+				</a>
+				<a href="meetings.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Meetings
+						</p>
+					</div>
+				</a>
+				<a href="invoice.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Invoice
+						</p>
+					</div>
+				</a>
+				<a href="contracts.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Contracts
+						</p>
+					</div>
+				</a>
+				<a href="reports.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Reports
+						</p>
+					</div>
+				</a>
+				<hr class="mb-3">
+				<h6 class="stnghdng text-muted mb-2">Settings</h6>
+				<div class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-duotone fa-bag-shopping"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<div class="asidbox_Link">
+							Generale
+						</div>
+
+						<i class="fa-sharp fa-regular fa-chevron-down asidbox_LinkIcn"></i>
+					</div>
+					<ul class="aside-drop">
+						<li>
+							<a href="create-new.html" class="asidbox_Link2">
+								<div></div>
+								Notifications Sys
+							</a>
+						</li>
+						<li>
+							<a href="all-projects.html" class="asidbox_Link2">
+								<div></div>
+								DB Back-up
+							</a>
+						</li>
+					</ul>
+				</div>
+				<a href="reports.html" class="asidbox">
+					<div class="asidbox_icons">
+						<i class="fa-solid fa-grid-2"></i>
+					</div>
+					<div class="asidbox_Link-wrapper">
+						<p class="asidbox_Link">
+							Role & Permission
+						</p>
+					</div>
+				</a>
+				<div class="asidelogout">
+					<img src="assets/images/team2.jpg" alt="" class="asidelogout__img">
+					<div class="asidelogoutbox"></div>
+					<a href="login.html" class="asidelogoutbtn ml-auto">
+						<i class="fa-solid fa-power-off"></i>
+						LogOut
+					</a>
+				</div>
+			</div>
+		</aside>
+		<main class="main">
+			<div class="dashboard_header">
+				<div class="navbar">
+					<div class="flex-i thm-control-wrpr">
+						<button class="sidebar_btn">
+							<i class="fa-solid fa-bars-sort sidebar_btn_icon"></i>
+						</button>
+						<div class="thmwrpr">
+							<h6 class="thmwrpr__hdng flex-i gap-1">Welcome Back, Admin Lina
+								<i class="fa-solid fa-hand-sparkles text-success"></i>
+							</h6>
+							<p class="thmwrpr__p">
+								<i class="fa-regular fa-clock"></i>
+								22 September 2023 | 13:41 PM
+							</p>
+						</div>
+					</div>
+					<div class="navbar_search_box">
+						<input type="text" placeholder="Search" class="navbar_search_box_input" />
+						<button type="submit" class="navbar_search_box_btn">
+							<i class="fa fa-search navbar_search_box_btn_icone"></i>
+						</button>
+					</div>
+					<div class="flex-i prf-noti-wrpr">
+						<div class="flex-i gap-2">
+							<div class="theme flex-a">
+								<div class="theme-light-outer flex-i  light-btn">
+									<div class="theme-light flex-a">
+										<i class="fa-sharp fa-light fa-light-ceiling"></i>
+									</div>
+								</div>
+								<div class="theme-dark-outer flex-i  dark-btn">
+									<div class="theme-dark flex-a">
+										<i class="fa-sharp fa-solid fa-light-ceiling"></i>
+									</div>
+								</div>
+							</div>
+							<div class="navbar_noti_box navbar_noti_box--tik">
+								<i class="fa-regular fa-clipboard"></i>
+								<!-- <div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="notibox__hdr flex-i justify-between">
+										<i class="fa-solid fa-arrow-left"></i>
+										<div class="notibox__hdrBox">
+											<div class="notibox__hdrBox-mini flex-a r-50">
+												<i class="fa-regular fa-bell"></i>
+											</div>
+											<span>Notification</span>
+										</div>
+										<div class="notibox__hdrBox-mini notibox__hdrBox-mini1 flex-a r-50">
+											<i class="fa-solid fa-gear"></i>
+										</div>
+									</div>
+								</div> -->
+							</div>
+							<div class="navbar_noti_box navbar_noti_box--calender">
+								<i class="fa-solid fa-calendar-days"></i>
+								<!-- <div class="navbar_noti_box_details">
+									<div class="navbar_noti_box_details_for_hover"></div>
+									<div class="notibox__hdr flex-i justify-between">
+										<i class="fa-solid fa-arrow-left"></i>
+										<div class="notibox__hdrBox">
+											<div class="notibox__hdrBox-mini flex-a r-50">
+												<i class="fa-regular fa-bell"></i>
+											</div>
+											<span>Notification</span>
+										</div>
+										<div class="notibox__hdrBox-mini notibox__hdrBox-mini1 flex-a r-50">
+											<i class="fa-solid fa-gear"></i>
+										</div>
+									</div>
+								</div> -->
+							</div>
+							<div class="navbar_noti_box">
+								<div class="navbar_noti_box-ab">12+</div>
+								<i class="fa-sharp fa-regular fa-bells bell1"></i>
+								<i class="fa-solid fa-bell bell2"></i>
+	
+								<div class="navbar_noti_box_details">
+									<div class="notitabtab-content">
+										<div class="navbar_noti_box_details_for_hover"></div>
+										<div class="notibox__hdr flex-i justify-between">
+											<i class="fa-solid fa-arrow-left"></i>
+											<div class="notibox__hdrBox">
+												<div class="notibox__hdrBox-mini flex-a r-50">
+													<i class="fa-regular fa-bell"></i>
+												</div>
+												<span>Notification</span>
+											</div>
+											<div class="notibox__hdrBox-mini notibox__hdrBox-mini1 flex-a r-50">
+												<i class="fa-solid fa-gear"></i>
+											</div>
+										</div>
+										<ul class="notitab flex-i gap-2" role="tablist">
+											<li class="nav-item" role="presentation">
+												<button class="notitab__btn active" id="home-tab" data-bs-toggle="tab" data-bs-target="#a1" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+													<i class="fa-solid fa-check"></i>
+													<span>News</span>
+													<span class="notitab__btnmini flex-a">15+</span>
+												</button>
+											</li>
+											<li class="nav-item" role="presentation">
+												<button class="notitab__btn" id="profile-tab" data-bs-toggle="tab" data-bs-target="#a2" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+													<i class="fa-solid fa-stopwatch"></i>
+													Reminder
+												</button>
+											</li>
+										</ul>
+										<div class="tab-content">
+											<div class="tab-pane fade show active" id="a1" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+												<div class="noticard">
+													<div class="noticard-img-hold flex-a r-50">
+														<img src="assets/images/team1.png" alt="" class="r-50">
+													</div>
+													<div class="noticard__content">
+														<h6 class="noticard__content-h6"><span class="sp1">Lina Moahmmed</span>   Changed the Projects <span class="sp1">No</span>  <span> #1223 </span></h6>
+														<p class="noticard__content-date">Deadline to 12-3-2024</p>
+														<div class="noticard__contenttab">
+															<span>Projects</span>
+															<div></div>
+															<span>23-2-2023</span>
+														</div>
+													</div>
+													<div class="dropdown noticarddropdown">
+														<a class="noticarddropdownbtn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+															<i class="fa-solid fa-ellipsis"></i>
+														</a>
+														<ul class="dropdown-menu noticarddropdownmenu">
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-eye"></i>
+																	</div>
+																	<span>View</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-check"></i>
+																	</div>
+																	<span>Mark As Read</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-trash"></i>
+																	</div>
+																	<span>Delete</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="noticard">
+													<div class="noticard-img-hold flex-a r-50">
+														<img src="assets/images/team1.png" alt="" class="r-50">
+													</div>
+													<div class="noticard__content">
+														<h6 class="noticard__content-h6">Lina Moahmmed Changed the Projects No <span> #1223 </span></h6>
+														<p class="noticard__content-date">Deadline to 12-3-2024</p>
+														<div class="noticard__contenttab">
+															<span>Projects</span>
+															<div></div>
+															<span>23-2-2023</span>
+														</div>
+													</div>
+													<div class="dropdown noticarddropdown">
+														<a class="noticarddropdownbtn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+															<i class="fa-solid fa-ellipsis"></i>
+														</a>
+														<ul class="dropdown-menu noticarddropdownmenu">
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-eye"></i>
+																	</div>
+																	<span>View</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-check"></i>
+																	</div>
+																	<span>Mark As Read</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-trash"></i>
+																	</div>
+																	<span>Delete</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+												<div class="noticard">
+													<div class="noticard-img-hold flex-a r-50">
+														<img src="assets/images/team1.png" alt="" class="r-50">
+													</div>
+													<div class="noticard__content">
+														<h6 class="noticard__content-h6">Lina Moahmmed Changed the Projects No <span> #1223 </span></h6>
+														<p class="noticard__content-date">Deadline to 12-3-2024</p>
+														<div class="noticard__contenttab">
+															<span>Projects</span>
+															<div></div>
+															<span>23-2-2023</span>
+														</div>
+													</div>
+													<div class="dropdown noticarddropdown">
+														<a class="noticarddropdownbtn dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+															<i class="fa-solid fa-ellipsis"></i>
+														</a>
+														<ul class="dropdown-menu noticarddropdownmenu">
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-eye"></i>
+																	</div>
+																	<span>View</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-check"></i>
+																	</div>
+																	<span>Mark As Read</span>
+																</a>
+															</li>
+															  <li>
+																<a class="noticarddropdownmenu-item" href="#">
+																	<div class="noticarddropdownmenu-item-mini flex-a">
+																		<i class="fa-solid fa-trash"></i>
+																	</div>
+																	<span>Delete</span>
+																</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="a2" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+												<div class="noticard noticard-shimmerui">
+													<div class="noticard-img-hold flex-a r-50">
+													</div>
+													<div class="noticard__content">
+														<h6 class="noticard__content-h6"></span></h6>
+														<p class="noticard__content-date"></p>
+														<div class="noticard__contenttab">
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								
+									<div class="notitabtabftr">
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- profile button with dropdown -->
+						<div class="dropdown">
+							<div class="nav_pf_box flex items-center gap-2 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								<div class="nav_pf_box_hol">
+									<img src="assets/images/team2.jpg" alt="" class="nav_pf_box_img" />
+								</div>
+								<div>
+									<h6 class="nav_pf_box_name">Lina Ali</h6>
+									<div class="nav_pf_box_name2 d-flex flex-i gap-1">
+										<div class="nav_pf_box_name2-mini flex-a r-50">
+											<i class="fa-solid fa-fingerprint"></i>
+										</div>
+										Admin
+									</div>
+								</div>
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<ul class="dropdown-menu pfDropdown" aria-labelledby="dropdownMenuLink">
+								<li class="pfDropdown_item pfDropdown-hdr">
+									<div class="pfDropdown_box gap-2 flex items-center">
+										<img src="assets/images/team2.jpg" alt="" class="pfDropdown_box-img">
+										<h6 class="pfDropdown_text2">Lina Ali</h6>
+									</div>
+								</li>
+								<li class="pfDropdown_item">
+									<a href="profile.html" class="pfDropdown_link">
+										<div class="pfDropdown_icone">
+											<i class="fa-solid fa-user-plus"></i>
+										</div>
+										<h6 class="pfDropdown_text">My Profiles</h6>
+									</a>
+								</li>
+								<li class="pfDropdown_item">
+									<a href="profile.html" class="pfDropdown_link">
+										<div class="pfDropdown_icone">
+											<i class="fa-solid fa-user-plus"></i>
+										</div>
+										<h6 class="pfDropdown_text">Change Password</h6>
+									</a>
+								</li>
+							
+								<li class="pfDropdown_item">
+									<a href="help.html" class="pfDropdown_link">
+										<div class="pfDropdown_icone">
+											<i class="fa-solid fa-user-plus"></i>
+										</div>
+										<h6 class="pfDropdown_text pfDropdown_text2">Help Center</h6>
+									</a>
+								</li>
+								<li class="pfDropdown_item">
+									<a href="login.html" class="logout flex-a">
+										<div class="pfDropdown_icone">
+											<i class="fa-solid fa-power-off"></i>
+										</div>
+										<h6 class="pfDropdown_text pfDropdown_text2">Logout</h6>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- profile button with dropdown -->
+					</div>
+				</div>
+				<!-- nav1 end -->
+				<div class="navbar_search_box_mobile">
+					<input type="text" placeholder="search" class="navbar_search_box_mobile_input" />
+				</div>
+				<!-- search box mobile end -->
+			</div>
+			<!-- header end -->
+			<div class="main_body">
+				<div class="container-fluid">
+					<div class="card">
+						<div class="prjCard">
+							<div class="prjCard__hdr flex-i">
+								<i class="fa-solid fa-house prjCard__hdr-ic1"></i>
+								<span class="prjCard__sp1">Home</span>
+								<i class="fa-solid fa-chevron-right prjCard__hdr-ic2"></i>
+								<span class="prjCard__sp1">All Projects</span>
+								<i class="fa-solid fa-chevron-right prjCard__hdr-ic2"></i>
+								<span class="prjCard__sp1">Project Details</span>
+
+								<div class="flex-i gap-3 ml-auto prjCard__hdrbtnswrpr">
+									<div class="panHdrBox2printrwrpr">
+										<div class="panHdrBox2PrintrBtn2 flex-a">
+											<i class="fa-solid fa-download"></i>
+											<div class="panHdrBox2PrintrBtn2-ab">
+												<button class="panHdrBox2PrintrBtn2-ab-btn flex-a r-50">
+													<span>Export CSV</span>
+													<i class="fa-solid fa-file-csv"></i>
+												</button>
+												<button class="panHdrBox2PrintrBtn2-ab-btn flex-a r-50">
+													<span>Export Excel</span>
+													<i class="fa-solid fa-file-excel"></i>
+												</button>
+												<button class="panHdrBox2PrintrBtn2-ab-btn flex-a r-50">
+													<span>Save to PDF</span>
+													<i class="fa-solid fa-file-pdf"></i>
+												</button>
+											</div>
+										</div>
+										<div class="panHdrBox2PrintrBtn3 flex-a">
+											<i class="fa-solid fa-print"></i>
+										</div>
+									</div>
+									<a href="all-projects.html" class="prjCard__hdrbtn prjCard__hdrbtn--alprj flex-i gap-2">
+										<div class="flex-a r-50">
+											<i class="fa-solid fa-plus"></i>
+										</div>
+										All Project
+									</a>
+								</div>
+							</div>
+							<div class="prjCard__body">
+								<div class="flex-i prjdethdr gap-2">
+									<i class="fa-solid fa-circle-check"></i>
+									<h6>Project No <span> #230 </span> </h6>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="prjdetCard mb-3">
+											<div class="prjdetCardHdr">
+												<h6 class="prjdetCardHdr__hdng">Project Details</h6>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Name: </span>
+													<span class="prjdetCard__cnt-sp2">Project Seed Ben Ahmed Center </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Start Date: </span>
+													<span class="prjdetCard__cnt-sp2">23/12/2023 </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">End Date: </span>
+													<span class="prjdetCard__cnt-sp2">23/12/2023 </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-hourglass-end"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Project Period: </span>
+													<div class="taskcardInnertag flex-a">
+														3 Month
+													</div>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Prject Type: </span>
+													<span class="prjdetCard__cnt-sp2"> Clinic </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Prject Type: </span>
+													<span class="prjdetCard__cnt-sp2 blue"> Clinic </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-regular fa-circle"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Project Period: </span>
+													<div class="prgtag flex-a gap-1">
+														<i class="fa-solid fa-spinner"></i>
+														in progress
+													</div>
+												</div>
+											</div>
+											<div class="prjdetCard__row altsrt">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-regular fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Description: </span>
+													<span class="prjdetCard__cnt-sp3">
+														It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="prjdetCard mb-3">
+											<div class="prjdetCardHdr">
+												<h6 class="prjdetCardHdr__hdng prjdetCardHdr__hdng2">Owner Details</h6>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Name </span>
+													<span class="prjdetCard__cnt-sp2 blue">Ahsan Iqbal </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Email: </span>
+													<span class="prjdetCard__cnt-sp2">aaaaa@ddd.ccc</span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Phone:  </span>
+													<span class="prjdetCard__cnt-sp2">+971552138081 - +971563223241</span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-hourglass-end"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Trade name reservation: </span>
+													<span class="prjdetCard__cnt-sp2"> Clinic Center </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-calendar-days"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1">Passport ID: </span>
+													<span class="prjdetCard__cnt-sp2"> P04458766746 </span>
+												</div>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini flex-a r-50">
+													<i class="fa-solid fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp1"> Emmirates ID: </span>
+													<span class="prjdetCard__cnt-sp2"> P04458766746 </span>
+												</div>
+											</div>
+										</div>
+										<div class="prjdetCard mb-4">
+											<div class="prjdetCardHdr">
+												<h6 class="prjdetCardHdr__hdng prjdetCardHdr__hdng3">Project Files & Docs</h6>
+											</div>
+											<div class="prjdetCard__row">
+												<div class="prjdetCard__mini prjdetCard__mini2 flex-a r-50">
+													<i class="fa-solid fa-check"></i>
+												</div>
+												<div class="prjdetCard__cnt">
+													<span class="prjdetCard__cnt-sp2 blue">Attachments</span>
+													<span class="prjdetCard__cnt-sp1">4 </span>
+												</div>
+											</div>
+											<div class="flex flex-wrap gap-3 prjdetCardwrpr">
+												<div class="prjdetminicrd flex-a">
+													<i class="fa-solid fa-file-pdf"></i>
+												</div>
+												<div class="prjdetminicrd flex-a">
+													<img src="assets/images/team1.jpg" alt="" class="prjdetminicrd__img r-50">
+												</div>
+												<div class="prjdetminicrd flex-a">
+													<img src="assets/images/team1.jpg" alt="" class="prjdetminicrd__img r-50">
+												</div>
+												<div class="prjdetminicrd flex-a">
+													<img src="assets/images/team1.jpg" alt="" class="prjdetminicrd__img r-50">
+												</div>
+												<div class="prjdetminicrd flex-a">
+													<img src="assets/images/team1.jpg" alt="" class="prjdetminicrd__img r-50">
+												</div>
+												<div class="prjdetminicrd flex-a">
+													<img src="assets/images/team1.jpg" alt="" class="prjdetminicrd__img r-50">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</div>
+<div class="modal fade" id="delmdl" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content delmdl">
+			<div class="delmdlbody">
+				<div class="delmdlhdr flex-a">
+					<div class="delmdlhdr-box">
+						<i class="fa-solid fa-trash-can-check"></i>
+					</div>
+				</div>
+				<p class="delmdlhdr-p">Are Sure You Want To  <br>
+					Delete This ID # <span class="yellow">1</span> </p>
+			</div>
+			<div class="delmdlftr flex-i justify-content-center gap-3">
+				<button type="button" data-bs-dismiss="modal" class="delmdlftr-btn delmdlftr-btn1">Cencel</button>
+				<button type="submit" class="delmdlftr-btn delmdlftr-btn2">Yes</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="dist/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="dist/bootstrap-5.2.2/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<script src="https://unpkg.com/create-file-list"></script>
+<script>
+function dataFileDnD() {
+    return {
+        files: [],
+        fileDragging: null,
+        fileDropping: null,
+        humanFileSize(size) {
+            const i = Math.floor(Math.log(size) / Math.log(1024));
+            return (
+                (size / Math.pow(1024, i)).toFixed(2) * 1 +
+                " " +
+                ["B", "kB", "MB", "GB", "TB"][i]
+            );
+        },
+        remove(index) {
+            let files = [...this.files];
+            files.splice(index, 1);
+
+            this.files = createFileList(files);
+        },
+        drop(e) {
+            let removed, add;
+            let files = [...this.files];
+
+            removed = files.splice(this.fileDragging, 1);
+            files.splice(this.fileDropping, 0, ...removed);
+
+            this.files = createFileList(files);
+
+            this.fileDropping = null;
+            this.fileDragging = null;
+        },
+        dragenter(e) {
+            let targetElem = e.target.closest("[draggable]");
+
+            this.fileDropping = targetElem.getAttribute("data-index");
+        },
+        dragstart(e) {
+            this.fileDragging = e.target
+                .closest("[draggable]")
+                .getAttribute("data-index");
+            e.dataTransfer.effectAllowed = "move";
+        },
+        loadFile(file) {
+            const preview = document.querySelectorAll(".preview");
+            const blobUrl = URL.createObjectURL(file);
+
+            preview.forEach(elem => {
+                elem.onload = () => {
+                    URL.revokeObjectURL(elem.src); // free memory
+                };
+            });
+
+            return blobUrl;
+        },
+        addFiles(e) {
+            const files = createFileList([...this.files], [...e.target.files]);
+            this.files = files;
+            this.form.formData.files = [...files];
+        }
+    };
+}
+</script>
+<script src="assets/js/scripts.js"></script>
+</body>
+</html>

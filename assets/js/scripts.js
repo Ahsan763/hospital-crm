@@ -114,4 +114,10 @@ $(document).ready(function() {
 		$(".listbtn").removeClass("active");
 	}
 	// show list and grid view end
+	$(".inputF").focus(function(){
+        $(this).nextAll('.form-input-sm-name').eq(0).show()
+    })
+    $(".inputF").focusout(function(){
+        $(this).nextAll('.form-input-sm-name').eq(0).hide()
+    })
 });
