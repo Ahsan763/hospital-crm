@@ -353,3 +353,9 @@
 .asidelogoutbtn  i{
     color: #C70933;
 }
+.aside.active .asidelogout__img{
+    display: none;
+}
+.aside.active .asidelogoutbtn {
+    margin: 0 auto !important;
+}

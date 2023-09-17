@@ -639,6 +639,12 @@
     }
 }
 @media(max-width:1023px){
+    .aside.active .asidelogout__img{
+        display: block;
+    }
+    .aside.active .asidelogoutbtn {
+        margin: 0 0 0 auto !important;
+    }
     .aside.active.pos{
         overflow-y: scroll;
     }
@@ -697,7 +703,7 @@
         border: none;
         width: 30px;
         height: 30px;
-        z-index: 99;
+        z-index: 9999;
         font-size: 18px;
         color: #454545;
         top: 10px;
