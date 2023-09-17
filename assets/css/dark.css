@@ -430,3 +430,15 @@ body.dark{
     background-color: #3E485A;
     color: #20B0E0;
 }
+.dark .notitabtabftr-box-mini{
+    background-color: #24212D;
+}
+.dark .notitabtabftr-box span{
+    color: #fff;
+}
+.dark .notitabtabftr-box span:hover{
+    color: #20B0E0;
+}
+.dark .notitabtabftr__btn:hover{
+    background-color: transparent;
+}

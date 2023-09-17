@@ -2351,3 +2351,31 @@ input[type=checkbox]:checked:before {
     color: #00B4EE;
     background-color: #fff;
 }
+.notitabtabftr-box-mini{
+    width: 33px;
+    height: 33px;
+    background-color: #fff;
+    font-size: 11px;
+    color: #969494;
+}
+.notitabtabftr-box span{
+    color: #000;
+    font-size: 14px;
+
+}
+.notitabtabftr-box span:hover{
+    color: #00B4EE;
+}
+.notitabtabftr__btn{
+    background-color: #00B4EE;
+    color: #fff;
+    border: 1px solid #00B4EE;
+    padding: 5px 12px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.notitabtabftr__btn:hover{
+    background-color: #fff;
+    color: #00B4EE;
+   
+}
