@@ -433,6 +433,10 @@ body.dark{
 .dark .notitabtabftr-box-mini{
     background-color: #24212D;
 }
+.dark .grdcrd .calendarbox span,
+.dark .grdcrdHdrBox1__h6,
+.dark .grdcrdHdrBox1__h6 a,
+.dark .grdcrdHdrBox1__sp1,
 .dark .notitabtabftr-box span{
     color: #fff;
 }
@@ -441,4 +445,18 @@ body.dark{
 }
 .dark .notitabtabftr__btn:hover{
     background-color: transparent;
+}
+.dark .grdcrd{
+    background-color: #383243;
+    border-color: transparent;
+}
+.dark .grdcrd .prgtag{
+    background-color: #2D2A33;
+}
+.dark .grdcrd .taskcardInnertag{
+    background-color: #2D2A33;
+    border-radius: 30px;
+}
+.dark .grdcrdHdr{
+    border-color: #2D2A33;
 }

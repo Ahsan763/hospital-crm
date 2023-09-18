@@ -1928,6 +1928,15 @@
     left: 0;
     top: 40px;
 }
+.grdcrd .tablBtnAb::before{
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 44px;
+    right: 0;
+    left: 0;
+    top: -40px;
+}
 .grdcrd .tablBtn{
     background-color: transparent;
 }
